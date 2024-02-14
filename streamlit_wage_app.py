@@ -6,7 +6,7 @@ from wage_app import calculate_wage,convert_df
 
 
 
-st.title('Wage App')
+st.title('Wage Application')
 
 file_in = st.file_uploader("Please upload employee file")
 if file_in is not None:

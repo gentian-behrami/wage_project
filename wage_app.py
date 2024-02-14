@@ -12,8 +12,8 @@ def calculate_wage(name):
     df['wage'] = df['hours']*df['rate']
     return df
 
-result = calculate_wage('data_wage - Copy.csv')
-print(result)
+# result = calculate_wage('data_wage - Copy.csv')
+# print(result)
 
 @st.cache_data
 def convert_df(df):
