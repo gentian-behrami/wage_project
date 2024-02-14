@@ -14,9 +14,9 @@ if file_in is not None:
     st.write(dataframe)
 
     csv = convert_df(dataframe)
-    file_name_in = st.text_input('Please enter a name for file','None')
+    file_name_in = st.text_input('Please enter a name for file')
 
-    if file_name_in is not 'None':
+    if file_name_in is not None:
 
         st.download_button(
             label="Download data as CSV",
